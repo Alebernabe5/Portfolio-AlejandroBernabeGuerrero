@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Bernabé Guerrero</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alejandro Bernabé Guerrero</title>
+  <link rel="stylesheet" href="./assets/output.css" />
 </head>
-<body>
-    
+
+<body class="bg-gradient-to-b from-black via-sky-950 to-gray-900 text-white font-sans">
+
+  <!-- HEADER -->
+  <header class="max-w-xl mx-auto text-center px-4 pt-10">
+    <img 
+      src="./assets/Ale.jpg" 
+      alt="Alejandro Bernabé sonriendo"
+      class="w-80 h-80 mx-auto rounded-full object-cover shadow-lg border-4 border-sky-500"
+    />
+    <h1 class="text-3xl sm:text-4xl font-extrabold mt-4 text-sky-400">Alejandro Bernabé Guerrero</h1>
+    <p class="text-sky-200 mt-1">@alebernadev</p>
+    <p class="text-sm sm:text-base mt-4 text-gray-300">
+     Soy una persona trabajadora y comprometida, con una sólida trayectoria laboral que me ha enseñado el valor del esfuerzo constante y la adaptabilidad. Me apasiona colaborar en equipo, y quienes han trabajado conmigo destacan mi entusiasmo, empatía y facilidad para conectar con los demás.
+    Actualmente me encuentro enfocado en el desarrollo web, un área que despierta mi curiosidad y me reta a superarme día a día. Mi experiencia previa me impulsa a seguir aprendiendo y evolucionando, siempre con una actitud positiva, proactiva y abierta al cambio.
+    Estoy listo para aportar mis habilidades en entornos dinámicos, asumir nuevos desafíos y crecer junto a proyectos que me inspiren.
+    </p>
+
+    <!-- REDES SOCIALES -->
+    <div class="flex justify-center gap-4 mt-6">
+      <a href="https://github.com/Alebernabe5" target="_blank" aria-label="GitHub" title="GitHub"
+        class="hover:scale-110 transition-transform">
+        <svg width="32" height="32" class="fill-current text-white hover:text-sky-500">
+          <use xlink:href="./assets/sprite.svg#github"></use>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/" target="_blank" aria-label="LinkedIn" title="LinkedIn"
+        class="hover:scale-110 transition-transform">
+        <svg width="32" height="32" class="fill-current text-white hover:text-sky-500">
+          <use xlink:href="./assets/sprite.svg#linkedin"></use>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/" target="_blank" aria-label="LinkedIn" title="LinkedIn"
+        class="hover:scale-110 transition-transform">
+        <svg width="32" height="32" class="fill-current text-white hover:text-sky-500">
+          <use xlink:href="./assets/sprite.svg#linkedin"></use>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="max-w-5xl mx-auto px-4 mt-12">
+
+    <!-- SECCIÓN DE PROYECTOS -->
+    <section id="proyectos" class="text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-6">Mis Proyectos</h2>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Proyecto 1 -->
+        <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-sky-200">YouPet</h3>
+          <p class="text-gray-300 text-sm mt-2">Una app para organizar encuentros entre dueños de mascotas.</p>
+          <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-sky-200">Portfolio React</h3>
+          <p class="text-gray-300 text-sm mt-2">Un portfolio moderno hecho con React y Tailwind.</p>
+          <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-sky-200">API de Películas</h3>
+          <p class="text-gray-300 text-sm mt-2">API REST para buscar y guardar información de películas.</p>
+          <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center mt-16 py-6 border-t border-sky-900 text-gray-400 text-sm">
+    © 2025 Alejandro Bernabé Guerrero — Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
