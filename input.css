@@ -4,5 +4,6 @@
 --color-primary: #09f;
 
 
-
+/* Breakpoint*/
+--breakpoint-xs:350px;
 }
