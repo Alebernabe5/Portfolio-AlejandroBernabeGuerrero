@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alejandro Bernabé Guerrero</title>
   <link rel="stylesheet" href="./assets/output.css" />
-  <script src="./assets/main.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+  <script src="assets/js/contacto.js"></script>
+
   <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
 </head>
 
@@ -322,7 +325,7 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
   <div class="bg-gray-900 rounded-3xl p-6 max-w-7xl mx-auto">
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       
-      <!-- Proyecto 1 -->
+      <!-- PROYECTO 1 -->
       <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
         <h3 class="text-xl font-semibold text-sky-200">YouPet</h3>
         
@@ -345,34 +348,22 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
         </a>
       </div>
 
-      <!-- Proyecto 2 -->
-      <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold text-sky-200">Portfolio React</h3>
-        <p class="text-gray-300 text-sm mt-2">Un portfolio moderno hecho con React y Tailwind.</p>
-        <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
-      </div>
+      
 
-      <!-- Proyecto 3 -->
-      <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold text-sky-200">API de Películas</h3>
-        <p class="text-gray-300 text-sm mt-2">API REST para buscar y guardar información de películas.</p>
-        <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
-      </div>
-
- <a href="#" class="inline-block mt-4 text-sky-400 hover:underline text-left">Ver más</a>
+ <a href="https://github.com/Alebernabe5?tab=repositories" target="_blank" class="inline-block mt-4 text-sky-400 hover:underline text-left">Ver más</a>
     </div>
   </div>
 </section>
 
 
-<!-- SECCIÓN DE PROYECTOS -->
-<section id="proyectos" class="text-center">
-  <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-8 mt-20">Contáctame</h2>
+<!-- CONTACTO -->
+<section id="contacto" class="text-center mt-20 px-2 pt-12 mb-0">
+  <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-8 ">Contáctame</h2>
 
   <!-- Contenedor general con fondo, padding y rounded para encapsular todos -->
   <div class="bg-gray-950 rounded-3xl p-6 max-w-7xl mx-auto">
     
-    <form action="https://formspree.io/f/your-form-id" method="POST" class="w-full grid grid-cols-1 gap-6">
+    <form id="contactForm" class="w-full grid grid-cols-1 gap-6">
       <div>
         <label for="nombre" class="block mb-2 text-sm font-medium text-sky-200">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500" />
@@ -389,33 +380,22 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
       </div>
 
       <div class="text-center">
-        <button type="submit"  class="bg-sky-600 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+        <button type="submit"  class="bg-sky-400 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-md">
           Enviar mensaje
         </button>
       </div>
     </form>
 
+    <div id="formResponse" class="mt-4 text-sky-300 font-semibold"></div>
   </div>
 </section>
 
-
-
-
-  
 
 </main>
-<!-- CONTACTO -->
-<section id="contacto" class="mb-4py-10  mx-auto text-center px-2 pt-10">
-          
-  <div class="container mx-auto px-8">
-    
-    
-  </div>
-</section>
 
 </section>
   <!-- FOOTER -->
-  <footer class="text-center mt-16 py-6 border-t border-sky-900 text-gray-400 text-sm">
+  <footer class="text-center mt-8 py-6 border-t border-sky-900 text-gray-400 text-sm">
     © 2025 Alejandro Bernabé Guerrero — Todos los derechos reservados.
   </footer>
 
