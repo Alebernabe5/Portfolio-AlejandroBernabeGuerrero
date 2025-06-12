@@ -55,7 +55,7 @@
 
 
   <!-- HEADER -->
-  <header id="sobre_mi" class="max-w-xl mx-auto text-center px-2 pt-2">
+  <header id="sobre_mi" class="max-w-xl mx-auto text-center px-2 pt-8">
    <img 
   src="./assets/img/Ale-negro.png" 
   alt="Alejandro Bernabé sonriendo"
@@ -105,7 +105,7 @@
   </header>
 
   <!-- MAIN -->
-  <main class="max-w-5xl mx-auto px-4 mt-12">
+  <main class="max-w-5xl mx-auto px-4 mt-8">
 
     <!-- EDUCACION -->
     <section id="educacion" class="py-16 dark:bg-gray-900 scroll-reveal animate-reveal">
@@ -210,7 +210,7 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
       </a>
 
       <!-- CSS -->
-      <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-blue-900 via-blue-700 to-blue-500 border border-blue-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px] col-span-1 sm:col-span-2">
+      <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-blue-900 via-blue-700 to-blue-500 border border-blue-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px] col-span-1 sm:col-span-1">
         <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300">CSS</span>
         <svg class="absolute -right-0 -bottom-1.5 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300" width="100" height="100">
           <use xlink:href="./assets/sprite.svg#css" />
@@ -246,6 +246,24 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
         <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">Laravel</span>
         <svg class="absolute -right-2 -bottom-1.5 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300" width="100" height="100">
           <use xlink:href="./assets/sprite.svg#laravel" />
+        </svg>
+      </a>
+
+      <!-- Unity -->
+      <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-gray-900 via-slate-800 to-slate-700 border border-slate-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px]">
+      <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">Unity</span>
+
+      
+      <svg class="absolute -right-2 -bottom-1.5 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300 filter invert brightness-150 contrast-200">
+        <use xlink:href="./assets/sprite.svg#unity" />
+      </svg>
+      </a>
+
+      <!-- ANDROID STUDIO -->
+      <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-800 via-emerald-700 to-blue-900 flex flex-col items-start hover:scale-105 hover:contrast-150 transition group p-7 min-h-[150px]">
+        <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">Android Studio</span>
+        <svg class="absolute -right-2 -bottom-1.5 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300" width="100" height="100">
+          <use xlink:href="./assets/sprite.svg#android" />
         </svg>
       </a>
 
@@ -290,13 +308,7 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
           <use xlink:href="./assets/sprite.svg#bootstrap" />
         </svg>
       </a>
-      <!-- ANDROID STUDIO -->
-      <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-800 via-emerald-700 to-blue-900 flex flex-col items-start hover:scale-105 hover:contrast-150 transition group p-7 min-h-[150px]">
-        <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">Android Studio</span>
-        <svg class="absolute -right-2 -bottom-1.5 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300" width="100" height="100">
-          <use xlink:href="./assets/sprite.svg#android" />
-        </svg>
-      </a>
+     
       <!-- FIGMA -->
       <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-neutral-900 via-gray-800 to-violet-700 flex flex-col items-start hover:scale-105 hover:contrast-150 transition group p-7 min-h-[150px]">
         <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">Figma</span>
@@ -318,37 +330,242 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
  </section>
 
 <!-- SECCIÓN DE PROYECTOS -->
-<section id="proyectos" class="text-center">
+<section id="proyectos" class="text-center mt-20 px-2 pt-12 mb-0">
   <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-6 mt-10">Mis Proyectos</h2>
 
   <!-- Contenedor general con fondo, padding y rounded para encapsular todos -->
   <div class="bg-gray-900 rounded-3xl p-6 max-w-7xl mx-auto">
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       
-      <!-- PROYECTO 1 -->
-      <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold text-sky-200">YouPet</h3>
-        
-        <!-- Imagen centrada con sombra al hover -->
-        <div class="flex justify-center my-3">
-          <img 
-            src="./assets/img/logo.png" 
-            alt="YouPet Logo" 
-            class="w-28 h-28 object-contain rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_8px_8px_rgba(0,0,0,0.4)]" 
-          />
+      <!-- PROYECTO 1 YOUPET-->
+            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <!-- Imagen superior con título -->
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/logo.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">YouPet</h3>
         </div>
 
-        <p class="text-gray-300 text-sm mt-2">Una app para organizar encuentros entre dueños de mascotas.</p>
-        
-        <!-- SVG enlazado y animado -->
-        <a href="https://github.com/tu-repo" target="_blank" class="inline-block mt-4 hover:scale-110 transition-transform duration-300 ease-in-out">
-          <svg class="w-8 h-8" >
-            <use xlink:href="./assets/sprite.svg#gitHub" />
-          </svg>
-        </a>
+        <!-- Contenido -->
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">
+            Una app para organizar encuentros entre dueños de mascotas.
+          </p>
+
+          <!-- Etiquetas -->
+          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">PHP</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">MySQL</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Git</span>
+          </div>
+
+          <!-- Footer con botón GitHub -->
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+              <svg class="w-5 h-5">
+                <use xlink:href="./assets/sprite.svg#gitHub" />
+              </svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
       </div>
 
-      
+      <!-- PROYECTO 2 -->
+            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <!-- Imagen superior con título -->
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/migos.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">YouPet</h3>
+        </div>
+
+        <!-- Contenido -->
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">
+            Una app para organizar encuentros entre dueños de mascotas.
+          </p>
+
+          <!-- Etiquetas -->
+          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Git</span>
+          </div>
+
+          <!-- Footer con botón GitHub -->
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+              <svg class="w-5 h-5">
+                <use xlink:href="./assets/sprite.svg#gitHub" />
+              </svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- PROYECTO 3 -->
+            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <!-- Imagen superior con título -->
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/logo.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">YouPet</h3>
+        </div>
+
+        <!-- Contenido -->
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">
+            Una app para organizar encuentros entre dueños de mascotas.
+          </p>
+
+          <!-- Etiquetas -->
+          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">PHP</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">MySQL</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Git</span>
+          </div>
+
+          <!-- Footer con botón GitHub -->
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer "
+              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+              <svg class="w-5 h-5">
+                <use xlink:href="./assets/sprite.svg#gitHub" />
+              </svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- PROYECTO 4 -->
+            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <!-- Imagen superior con título -->
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/logo.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">YouPet</h3>
+        </div>
+
+        <!-- Contenido -->
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">
+            Una app para organizar encuentros entre dueños de mascotas.
+          </p>
+
+          <!-- Etiquetas -->
+          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">PHP</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">MySQL</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Git</span>
+          </div>
+
+          <!-- Footer con botón GitHub -->
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+              <svg class="w-5 h-5">
+                <use xlink:href="./assets/sprite.svg#gitHub" />
+              </svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- PROYECTO 5 -->
+            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <!-- Imagen superior con título -->
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/logo.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">YouPet</h3>
+        </div>
+
+        <!-- Contenido -->
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">
+            Una app para organizar encuentros entre dueños de mascotas.
+          </p>
+
+          <!-- Etiquetas -->
+          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">PHP</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">MySQL</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Git</span>
+          </div>
+
+          <!-- Footer con botón GitHub -->
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+              <svg class="w-5 h-5">
+                <use xlink:href="./assets/sprite.svg#gitHub" />
+              </svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROYECTO 6 -->
+            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <!-- Imagen superior con título -->
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/aviones.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">Juego Aviones</h3>
+        </div>
+
+        <!-- Contenido -->
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">
+            Una app para organizar encuentros entre dueños de mascotas.
+          </p>
+
+          <!-- Etiquetas -->
+          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">C#</span>
+            
+          </div>
+
+          <!-- Footer con botón GitHub -->
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+              <a href="https://github.com/Alebernabe5/MiniJuegoAvionesMoviles" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+                
+                <svg class="w-5 h-5 ">
+                  <use xlink:href="./assets/sprite.svg#gitHub" />
+                </svg>
+
+                Repositorio
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+                
+                <svg class="w-5 h-5 ">
+                  <use xlink:href="./assets/sprite.svg#web" />
+                </svg>
+
+                Sitio Web
+              </a>
+            </div>
+
+           
+        </div>
+      </div>
+
+
 
  <a href="https://github.com/Alebernabe5?tab=repositories" target="_blank" class="inline-block mt-4 text-sky-400 hover:underline text-left">Ver más</a>
     </div>
