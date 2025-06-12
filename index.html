@@ -6,12 +6,12 @@
   <title>Alejandro Bernabé Guerrero</title>
   <link rel="stylesheet" href="./assets/output.css" />
   <script src="./assets/main.js"></script>
-  <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
 </head>
 
 
 
-  <body class=" bg-gradient-to-b from-black via-sky-950 to-gray-900 text-white font-sans">
+<body class=" bg-gradient-to-b from-black via-sky-950 to-gray-900 text-white font-sans">
 
 <!-- BARRA DE NAVEGACION -->
 <nav class="sticky top-0 z-50 border-gray-700 bg-black/20 dark:bg-gray-800/5">
@@ -52,9 +52,9 @@
 
 
   <!-- HEADER -->
-  <header id="sobre_mi" class="max-w-xl mx-auto text-center px-2 pt-10">
+  <header id="sobre_mi" class="max-w-xl mx-auto text-center px-2 pt-2">
    <img 
-  src="./assets/Ale-negro.png" 
+  src="./assets/img/Ale-negro.png" 
   alt="Alejandro Bernabé sonriendo"
   class="w-80 h-80 mx-auto object-cover shadow-lg mask-radial-at-center mask-radial-from-50% mask-radial-to-70% animate-pulse-fade-in"
 />
@@ -83,20 +83,20 @@
     <!-- REDES SOCIALES -->
     <div class="flex justify-center gap-4 mt-6">
       <a href="https://github.com/Alebernabe5" target="_blank" aria-label="GitHub" title="GitHub"
-        class="size-12 sm:size-16  hover:scale-110 transition-transform animate-slide-up-fade animate-delay-200">
+        class="size-20 sm:size-24  hover:scale-110 transition-transform animate-slide-up-fade animate-delay-200">
         <svg width="32" height="32" class="fill-current text-white hover:text-sky-500">
           <use xlink:href="./assets/sprite.svg#github"></use>
         </svg>
       </a>
       <a href="https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/" target="_blank" aria-label="LinkedIn" title="LinkedIn"
-        class="size-12 sm:size-16  hover:scale-110 transition-transform animate-slide-up-fade">
+        class="size-20 sm:size-24  hover:scale-110 transition-transform animate-slide-up-fade">
         <svg width="32" height="32" class="fill-current text-white hover:text-sky-500">
           <use xlink:href="./assets/sprite.svg#linkedin"></use>
         </svg>
       </a>
       <a href="./assets/CV-AlejandroBernabeGuerrero.pdf" target="_blank" aria-label="Descargar CV" title="CV"
-        class="size-12 sm:size-16  hover:scale-110 transition-transform animate-slide-up-fade">
-        <img src="./assets/cv.png" alt="Imagen para el CV" width="32" height="32" class="fill-current text-white hover:text-sky-500">
+        class="size-20 sm:size-24  hover:scale-110 transition-transform animate-slide-up-fade">
+        <img src="./assets/img/cv.png" alt="Imagen para el CV" width="32" height="32" class="fill-current text-white hover:text-sky-500">
       </a>
     </div>
   </header>
@@ -159,10 +159,10 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
           </svg>
         </div>
         <div class="flex-grow">
-          <h3 class="text-lg font-semibold text-sky-200  dark:text-white">FPGS Desarrollo de aplicaciones Web</h3>
-          <p class="text-sm text-gray-300 dark:text-gray-300">IFP, Online, España</p>
-          <p class="text-sm text-gray-300 dark:text-gray-300 mt-1">2025</p>
-          <p class="text-sm text-gray-300 dark:text-gray-300 mt-2">Editar
+          <h3 class="text-lg font-semibold text-sky-200  dark:text-white">Graduado en Educación Primaria</h3>
+          <p class="text-sm text-gray-300 dark:text-gray-300">Universidad de Sevilla, Sevilla, España</p>
+          <p class="text-sm text-gray-300 dark:text-gray-300 mt-1">2015-2019</p>
+          <p class="text-sm text-gray-300 dark:text-gray-300 mt-2">Soy un profesional de la educación con una fuerte vocación por la enseñanza, el aprendizaje continuo y la innovación tecnológica. Como graduado en Educación Primaria, combino mi pasión por la pedagogía con el mundo de la programación y las herramientas digitales, con el objetivo de crear experiencias de aprendizaje más dinámicas, inclusivas y significativas.
           </p>
         </div>
         <div class="absolute left-6 top-12 bottom-0 w-0.5 bg-sky-200 dark:bg-yellow-800"></div>
@@ -174,9 +174,9 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
   </div>
 </section>
 
+<!-- SECCIÓN DE SKILL -->
 <section id="skill" class="mb-4 text-center py-10">
-          <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-8">Skills</h2>
-        <!-- SECCIÓN DE SKILL -->
+          <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-10 mt-8">Skills</h2>
 
        <!-- Contenedor responsive -->
   <main class="py-4 px-4 pb-16">
@@ -312,81 +312,107 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
           </div>
         </main>
       </svg>
+ </section>
+
+<!-- SECCIÓN DE PROYECTOS -->
+<section id="proyectos" class="text-center">
+  <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-6 mt-10">Mis Proyectos</h2>
+
+  <!-- Contenedor general con fondo, padding y rounded para encapsular todos -->
+  <div class="bg-gray-900 rounded-3xl p-6 max-w-7xl mx-auto">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Proyecto 1 -->
+      <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-sky-200">YouPet</h3>
         
-      
-      
+        <!-- Imagen centrada con sombra al hover -->
+        <div class="flex justify-center my-3">
+          <img 
+            src="./assets/img/logo.png" 
+            alt="YouPet Logo" 
+            class="w-28 h-28 object-contain rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_8px_8px_rgba(0,0,0,0.4)]" 
+          />
+        </div>
 
-      <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 px-4">
-        <!-- Skill Badge -->
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          HTML
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          CSS
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          JavaScript
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          Laravel
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          Tailwind CSS
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          Bootstrap
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          React
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          Java
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          Git
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          Git Hub
-        </span>
-        <span class="text-sm font-medium text-sky-200 border border-sky-500 rounded-full px-4 py-2 hover:bg-sky-700 transition">
-          MySQL
-        </span>
+        <p class="text-gray-300 text-sm mt-2">Una app para organizar encuentros entre dueños de mascotas.</p>
+        
+        <!-- SVG enlazado y animado -->
+        <a href="https://github.com/tu-repo" target="_blank" class="inline-block mt-4 hover:scale-110 transition-transform duration-300 ease-in-out">
+          <svg class="w-8 h-8" >
+            <use xlink:href="./assets/sprite.svg#gitHub" />
+          </svg>
+        </a>
       </div>
-    </section>
 
-    <!-- SECCIÓN DE PROYECTOS -->
-    <section id="proyectos" class="text-center">
-      <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-6">Mis Proyectos</h2>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Proyecto 1 -->
-        <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
-          <h3 class="text-xl font-semibold text-sky-200">YouPet</h3>
-          <p class="text-gray-300 text-sm mt-2">Una app para organizar encuentros entre dueños de mascotas.</p>
-          <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
-        </div>
-
-        <!-- Proyecto 2 -->
-        <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
-          <h3 class="text-xl font-semibold text-sky-200">Portfolio React</h3>
-          <p class="text-gray-300 text-sm mt-2">Un portfolio moderno hecho con React y Tailwind.</p>
-          <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
-        </div>
-
-        <!-- Proyecto 3 -->
-        <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
-          <h3 class="text-xl font-semibold text-sky-200">API de Películas</h3>
-          <p class="text-gray-300 text-sm mt-2">API REST para buscar y guardar información de películas.</p>
-          <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
-        </div>
+      <!-- Proyecto 2 -->
+      <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-sky-200">Portfolio React</h3>
+        <p class="text-gray-300 text-sm mt-2">Un portfolio moderno hecho con React y Tailwind.</p>
+        <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
       </div>
-    </section>
+
+      <!-- Proyecto 3 -->
+      <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-sky-200">API de Películas</h3>
+        <p class="text-gray-300 text-sm mt-2">API REST para buscar y guardar información de películas.</p>
+        <a href="#" class="inline-block mt-4 text-sky-400 hover:underline">Ver más</a>
+      </div>
+
+ <a href="#" class="inline-block mt-4 text-sky-400 hover:underline text-left">Ver más</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECCIÓN DE PROYECTOS -->
+<section id="proyectos" class="text-center">
+  <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-8 mt-20">Contáctame</h2>
+
+  <!-- Contenedor general con fondo, padding y rounded para encapsular todos -->
+  <div class="bg-gray-950 rounded-3xl p-6 max-w-7xl mx-auto">
+    
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="w-full grid grid-cols-1 gap-6">
+      <div>
+        <label for="nombre" class="block mb-2 text-sm font-medium text-sky-200">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500" />
+      </div>
+
+      <div>
+        <label for="email" class="block mb-2 text-sm font-medium text-sky-200">Correo electrónico</label>
+        <input type="email" id="email" name="email" required placeholder="Escriba su correo electrónico" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500" />
+      </div>
+
+      <div>
+        <label for="mensaje" class="block mb-2 text-sm font-medium text-sky-200">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escriba su mensaje..." class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit"  class="bg-sky-600 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+          Enviar mensaje
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+
+
+
   
 
 </main>
 <!-- CONTACTO -->
-<section id="contacto" class="mb-4 text-center py-10">
-          <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-8">Contáctame</h2>
+<section id="contacto" class="mb-4py-10  mx-auto text-center px-2 pt-10">
+          
+  <div class="container mx-auto px-8">
+    
+    
+  </div>
+</section>
+
 </section>
   <!-- FOOTER -->
   <footer class="text-center mt-16 py-6 border-t border-sky-900 text-gray-400 text-sm">
