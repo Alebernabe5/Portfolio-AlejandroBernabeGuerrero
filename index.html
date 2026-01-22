@@ -5,24 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alejandro Bernabé Guerrero</title>
   <link rel="stylesheet" href="./assets/output.css" />
-  <script src="./assets/js/main.js"></script>
-  <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
-  <script src="assets/js/contacto.js"></script>
-
   <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
 
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-  (function(){
-    emailjs.init("alebernadev"); // Sustituye con tu User ID de EmailJS
-  })();
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+  <script src="./assets/js/main.js?v=1" defer></script>
+  <script src="./assets/js/contacto.js?v=1" defer></script>
 </head>
 
 
 
-<body class="scroll-smooth bg-gradient-to-b from-black via-sky-950 to-gray-900 text-white font-sans">
+<body class=" bg-gradient-to-b from-black via-sky-950 to-gray-900 text-white font-sans">
 
 <!-- BARRA DE NAVEGACION -->
 <nav class="sticky top-0 z-50 border-gray-700 bg-black/20 dark:bg-gray-800/5">
@@ -56,6 +49,20 @@
         <li><a href="#skill" class="block py-2 px-3 md:p-0 text-gray-600 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skill</a></li>
         <li><a href="#proyectos" class="block py-2 px-3 md:p-0 text-gray-600 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Proyectos</a></li>
         <li><a href="#contacto" class="block py-2 px-3 md:p-0 text-gray-600 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a></li>
+        <li class="relative group">
+          <button type="button" class="block py-2 px-3 md:p-0 text-gray-600 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 dark:text-white md:dark:hover:text-blue-500 transition-colors">
+            Referencias empresarial
+          </button>
+
+          <div class="absolute left-0 hidden group-hover:block w-48 pt-2 z-50">
+            <div class="bg-gray-900 border border-gray-700 rounded-lg shadow-xl overflow-hidden">
+              <a href="./assets/recomendacion.pdf" target="_blank" class="block px-4 py-3 text-sm text-gray-300 hover:bg-sky-950 hover:text-sky-400 transition-colors">
+                Mulhacen Soft
+              </a>
+            </div>
+          </div>
+        </li>
+        
       </ul>
     </div>
   </div>
@@ -84,10 +91,12 @@
 
 
     <p class="text-sm sm:text-base mt-2 text-gray-300 text-balance px-4">
-     Soy una persona trabajadora y comprometida, con una sólida trayectoria laboral que me ha enseñado el valor del esfuerzo constante y la adaptabilidad. Me apasiona colaborar en equipo, y quienes han trabajado conmigo destacan mi entusiasmo, empatía y facilidad para conectar con los demás.
-    Actualmente me encuentro enfocado en el desarrollo web, un área que despierta mi curiosidad y me reta a superarme día a día. Mi experiencia previa me impulsa a seguir aprendiendo y evolucionando, siempre con una actitud positiva, proactiva y abierta al cambio.
-    Estoy listo para aportar mis habilidades en entornos dinámicos, asumir nuevos desafíos y crecer junto a proyectos que me inspiren.
-    </p>
+   <b>Desarrollador de Software con doble perfil en Desarrollo de Aplicaciones Web (DAW) y Multiplataforma (DAM). Actualmente, especializándome en el despliegue de soluciones de Inteligencia Artificial y Big Data, enfocando mi carrera hacia la creación de sistemas inteligentes y escalables.
+
+Cuento con experiencia sólida en entornos corporativos reales, donde he gestionado el mantenimiento de software crítico, garantizando la estabilidad y optimización de sistemas en producción. Mi enfoque combina la solidez del desarrollo tradicional con la innovación del análisis de datos, permitiéndome abordar proyectos complejos con una visión estratégica y resolutiva.
+
+Comprometido con la excelencia técnica y la evolución continua hacia las tecnologías que liderarán el futuro empresarial.
+    </b></p>
     </div>
 
 
@@ -105,7 +114,7 @@
           <use xlink:href="./assets/sprite.svg#linkedin"></use>
         </svg>
       </a>
-      <a href="./assets/CV-AlejandroBernabeGuerrero.pdf" target="_blank" aria-label="Descargar CV" title="CV"
+      <a href="./assets/CV_Alejandro_Bernabe_Guerrero.pdf" target="_blank" aria-label="Descargar CV" title="CV"
         class="size-20 sm:size-24  hover:scale-110 transition-transform animate-slide-up-fade">
         <img src="./assets/img/cv.png" alt="Imagen para el CV" width="32" height="32" class="fill-current text-white hover:text-sky-500">
       </a>
@@ -116,12 +125,13 @@
   <main class="max-w-5xl mx-auto px-4 mt-8">
 
     <!-- EDUCACION -->
-    <section id="educacion" class="py-16 dark:bg-gray-900 scroll-reveal animate-reveal">
+    <section id="educacion" class="py-16 dark:bg-gray-900 scroll-reveal animate-reveal rounded-3xl">
   <div class="container mx-auto px-4">
     <h2 class="text-4xl font-bold text-center text-sky-400  dark:text-white mb-12">
       Educación
     </h2>
     <div class="max-w-3xl mx-auto">
+      
 
       <!-- Educación 1 -->
       <div class="flex items-start mb-8 relative">
@@ -241,6 +251,16 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
         </svg>
       </a>
 
+      <!-- Python  -->
+      <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#1e415e] via-[#3776ab] to-[#ffd343] border border-[#1e415e] flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px]">
+      <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">Python</span>
+      <svg class="absolute -right-0 -bottom-0 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300" width="100" height="100">
+        <use xlink:href="./assets/sprite.svg#python" />
+      </svg>
+      </a>
+
+     
+
       <!-- PHP -->
       <a class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-indigo-950 via-indigo-200 to-slate-300 border border-indigo-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px]">
         <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">PHP</span>
@@ -285,7 +305,7 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
       </a>
 
       <!-- GitHub -->
-      <a href="https://github.com/Alebernabe5?tab=repositories" target="_blank" rel="noopener noreferrer" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-zinc-900 via-neutral-800 to-stone-700 border border-neutral-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px]">
+      <a href="https://github.com/Alebernabe5" target="_blank" rel="noopener noreferrer" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-zinc-900 via-neutral-800 to-stone-700 border border-neutral-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition group p-7 min-h-[150px]">
         <span class="absolute bottom-2 left-0 font-bold text-2xl text-white group-hover:-translate-y-1 transition-transform duration-300 z-10">GitHub</span>
         <svg class="absolute -right-2 -bottom-1.5 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300" width="100" height="100">
           <use xlink:href="./assets/sprite.svg#gitHub" />
@@ -337,262 +357,185 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
       </svg>
  </section>
 
-<!-- SECCIÓN DE PROYECTOS -->
+ <!-- PROYECTOS  -->
+
 <section id="proyectos" class="text-center mt-20 px-2 pt-12 mb-0">
   <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-6 mt-10">Mis Proyectos</h2>
 
-  <!-- Contenedor general con fondo, padding y rounded para encapsular todos -->
-  <div class="bg-gray-900 rounded-3xl p-6 max-w-7xl mx-auto">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div class="bg-gray-900 rounded-3xl p-6 max-w-7xl mx-auto min-h">
+    <div id="contenedor-proyectos" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       
-      <!-- PROYECTO 1 YOUPET-->
-            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
-        <!-- Imagen superior con título -->
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
         <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
           <img src="./assets/img/logo.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">YouPet</h3>
         </div>
-
-        <!-- Contenido -->
         <div class="flex flex-col flex-grow p-4">
-          <p class="text-gray-300 text-sm mt-2 text-justify">
-            Una app que conecta a dueños y mascotas, ayudándoles a encontrar espacios, eventos y servicios cercanos para compartir y socializar.
-          </p>
-
-          <!-- Etiquetas -->
-          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
-           
-            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Javat</span>
+          <p class="text-gray-300 text-sm mt-2 text-justify">Una app que conecta a dueños y mascotas, ayudándoles a encontrar espacios, eventos y servicios cercanos.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Java</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Android Studio</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">SQLite</span>
           </div>
-
-          <!-- Footer con botón GitHub -->
           <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
-            <a href="https://github.com/salmonius/YouPetAndroidStudio" target="_blank" rel="noopener noreferrer"
-              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-              <svg class="w-5 h-5">
-                <use xlink:href="./assets/sprite.svg#gitHub" />
-              </svg>
-              Repositorio
+            <a href="https://github.com/salmonius/YouPetAndroidStudio" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
             </a>
-            
           </div>
         </div>
       </div>
 
-      <!-- PROYECTO 2 -->
-            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
-        <!-- Imagen superior con título -->
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
         <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
-          <img src="./assets/img/migos.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <img src="./assets/img/migos.png" alt="Migo's Futsal" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">Migo´s Futsal</h3>
         </div>
-
-        <!-- Contenido -->
         <div class="flex flex-col flex-grow p-4">
-          <p class="text-gray-300 text-sm mt-2 text-justify">
-            Página web creada para Escuelas Migo Futsal, academia de fútbol sala infantil de todas las categorías.
-            Incluye horarios, contacto y galería de actividades.
-          </p>
-
-          <!-- Etiquetas -->
-          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+          <p class="text-gray-300 text-sm mt-2 text-justify">Página web para academia de fútbol sala infantil. Incluye horarios, contacto y galería.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">HTML</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
-            
           </div>
-
-          <!-- Footer con botón GitHub -->
           <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
-            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
-              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-              <svg class="w-5 h-5">
-                <use xlink:href="./assets/sprite.svg#gitHub" />
-              </svg>
-              Repositorio
+            <a href="https://github.com/Alebernabe5/migosEscuelas/tree/main" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
             </a>
-            <!-- Sitio web -->
-              <a href="https://alebernabe5.github.io/migosEscuelas/" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-                
-                <svg class="w-5 h-5 ">
-                  <use xlink:href="./assets/sprite.svg#web" />
-                </svg>
-
-                Sitio Web
-              </a>
+            <a href="https://alebernabe5.github.io/migosEscuelas/" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#web" /></svg> Sitio Web
+            </a>
           </div>
         </div>
       </div>
-      <!-- PROYECTO 3 -->
-            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
-        <!-- Imagen superior con título -->
+
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
         <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
-          <img src="./assets/img/10code.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <img src="./assets/img/10code.png" alt="10Code University" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">10Code University</h3>
         </div>
-
-
-
-        <!-- Contenido -->
         <div class="flex flex-col flex-grow p-4">
-          <p class="text-gray-300 text-sm mt-2 text-justify">
-           Aplicación web creada con Laravel, con CRUD para gestionar carreras y estudiantes, además de un organizador de eventos destinado tanto a administradores como a alumnos.
-          </p>
-
-          <!-- Etiquetas -->
-          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
-            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">TailwindCss</span>
+          <p class="text-gray-300 text-sm mt-2 text-justify">App web con Laravel y CRUD para gestionar carreras, estudiantes y organizador de eventos.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Laravel</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">PHP</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">MySQL</span>
-            
           </div>
-
-          <!-- Footer con botón GitHub -->
           <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
-            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer "
-              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-              <svg class="w-5 h-5">
-                <use xlink:href="./assets/sprite.svg#gitHub" />
-              </svg>
-              Repositorio
+            <a href="https://github.com/Alebernabe5/10CodeUniversity" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
             </a>
-            
           </div>
         </div>
       </div>
-      <!-- PROYECTO 4 -->
-            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
-        <!-- Imagen superior con título -->
+
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
         <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
-          <img src="./assets/img/nostromo.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <img src="./assets/img/nostromo.png" alt="Nostromo" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">Nostromo</h3>
         </div>
-
-        <!-- Contenido -->
         <div class="flex flex-col flex-grow p-4">
-          <p class="text-gray-300 text-sm mt-2 text-justify">
-           Nostromo es una web creada como proyecto práctico para un restaurante. Incluye una galería de fotos que muestra el ambiente y los platos destacados, ofreciendo una experiencia visual atractiva para los visitantes.
-          </p>
-
-          <!-- Etiquetas -->
-          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+          <p class="text-gray-300 text-sm mt-2 text-justify">Web para un restaurante con galería visual de platos y ambiente destacado.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">HTML</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">CSS</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">JavaScript</span>
           </div>
-
-          <!-- Footer con botón GitHub -->
           <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
-            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
-              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-              <svg class="w-5 h-5">
-                <use xlink:href="./assets/sprite.svg#gitHub" />
-              </svg>
-              Repositorio
+            <a href="https://github.com/Alebernabe5/NostromoRestaurante/tree/main" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
             </a>
-            <!-- Sitio web -->
-              <a href="https://alebernabe5.github.io/NostromoRestaurante/" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-                
-                <svg class="w-5 h-5 ">
-                  <use xlink:href="./assets/sprite.svg#web" />
-                </svg>
-
-                Sitio Web
-              </a>
+            <a href="https://alebernabe5.github.io/NostromoRestaurante/" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#web" /></svg> Sitio Web
+            </a>
           </div>
         </div>
       </div>
-      <!-- PROYECTO 5 -->
-            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
-        <!-- Imagen superior con título -->
+      <!-- Proyecto gestor sonido -->
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
         <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
-          <img src="./assets/img/gestorSonido.PNG" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <img src="./assets/img/gestorSonido.PNG" alt="Gestor Sonido" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">GestorSonidoAndroid</h3>
         </div>
-
-        <!-- Contenido -->
         <div class="flex flex-col flex-grow p-4">
-          <p class="text-gray-300 text-sm mt-2 text-justify">
-            Gestor de sonido en Android para reproducir y pausar audio de forma dinámica, aumentando así la inmersión y experiencia en la aplicación.
-          </p>
-
-          <!-- Etiquetas -->
-          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
-           
-            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Javat</span>
+          <p class="text-gray-300 text-sm mt-2 text-justify">Gestor de sonido dinámico para Android para mejorar la inmersión en aplicaciones.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Java</span>
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Android Studio</span>
-            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">SQLite</span>
           </div>
-
-          <!-- Footer con botón GitHub -->
           <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
-            <a href="https://github.com/tu-repo" target="_blank" rel="noopener noreferrer"
-              class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-              <svg class="w-5 h-5">
-                <use xlink:href="./assets/sprite.svg#gitHub" />
-              </svg>
-              Repositorio
+            <a href="https://github.com/Alebernabe5/GestionAudiosOnlineMp3" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
             </a>
-            
-              
           </div>
         </div>
       </div>
-
-      <!-- PROYECTO 6 -->
-            <div class="bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
-        <!-- Imagen superior con título -->
+      <!-- Proyecto invitacion boda  -->
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
         <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
-          <img src="./assets/img/aviones.png" alt="Proyecto YouPet" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <img src="./assets/img/invitacionBoda.png" alt="Invitación Boda" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">Invitación Boda</h3>
+        </div>
+        <div class="flex flex-col flex-grow p-4">
+          <p class="text-gray-300 text-sm mt-2 text-justify">Invitación interactiva con cuenta regresiva, Google Maps y formulario de confirmación.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">C#</span>
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Netlify</span>
+          </div>
+          <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
+            <a href="https://github.com/Alebernabe5/MiniJuegoAvionesMoviles" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
+            </a>
+            <a href="https://paulaydani2025.netlify.app/" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#web" /></svg> Sitio Web
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Proyecto aviones  -->
+      <div class="proyecto-item bg-gray-800 rounded-2xl p-4 shadow hover:shadow-xl transition flex flex-col">
+        <div class="relative h-48 overflow-hidden rounded-xl transform transition-transform duration-200 hover:scale-105">
+          <img src="./assets/img/aviones.png" alt="Juego Aviones" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           <h3 class="absolute bottom-4 left-4 text-xl font-bold text-sky-300">Juego Aviones</h3>
         </div>
-
-        <!-- Contenido -->
         <div class="flex flex-col flex-grow p-4">
-          <p class="text-gray-300 text-sm mt-2 text-justify">
-            Desarrollado en Unity con C#, es un juego 2D donde el jugador controla un avión y esquiva o destruye asteroides para sobrevivir.
-          </p>
-
-          <!-- Etiquetas -->
-          <div class="flex flex-wrap gap-2 mt-2 mb-2  ">
+          <p class="text-gray-300 text-sm mt-2 text-justify">Juego 2D desarrollado en Unity donde controlas un avión esquivando asteroides.</p>
+          <div class="flex flex-wrap gap-2 mt-2 mb-2">
             <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">C#</span>
-            
+            <span class="px-2 py-1 bg-sky-900 text-sky-300 rounded-full text-xs font-medium">Unity</span>
           </div>
-
-          <!-- Footer con botón GitHub -->
           <div class="mt-auto pt-4 border-t border-gray-700 flex items-center justify-between">
-              <!-- GitHub   -->
-            <a href="https://github.com/Alebernabe5/MiniJuegoAvionesMoviles" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-2 text-sky-300 hover:text-white transform transition-transform duration-200 hover:scale-110">
-                
-                <svg class="w-5 h-5 ">
-                  <use xlink:href="./assets/sprite.svg#gitHub" />
-                </svg>
-
-                Repositorio
-              </a>
-
-             
-            </div>
-
-           
+            <a href="https://github.com/Alebernabe5/MiniJuegoAvionesMoviles" target="_blank" class="flex items-center gap-2 text-sky-300 hover:text-white transition-transform hover:scale-110">
+              <svg class="w-5 h-5"><use xlink:href="./assets/sprite.svg#gitHub" /></svg> Repositorio
+            </a>
+          </div>
         </div>
       </div>
+    </div>
+      <!-- Botones anterior y siguiente con paginación  -->
+    <div class="flex flex-col sm:flex-row items-center justify-between mt-10 gap-4 pt-6 border-t border-gray-800">
+      <div class="flex gap-4">
+        <button id="btn-prev" class="px-5 py-2 bg-gray-800 text-sky-300 rounded-xl hover:bg-sky-900 transition disabled:opacity-20 disabled:cursor-not-allowed">
+          &larr; Anterior
+        </button>
+        <button id="btn-next" class="px-5 py-2 bg-gray-800 text-sky-300 rounded-xl hover:bg-sky-900 transition disabled:opacity-20 disabled:cursor-not-allowed">
+          Siguiente &rarr;
+        </button>
+      </div>
+      
+      <div class="text-gray-400 text-sm">
+        Página <span id="pagina-actual" class="text-sky-300 font-bold">1</span> de <span id="total-paginas" class="text-sky-300 font-bold">2</span>
+      </div>
 
-
-
- <a href="https://github.com/Alebernabe5?tab=repositories" target="_blank" class="inline-block mt-4 text-sky-400 hover:underline text-left">Ver más</a>
+      <a href="https://github.com/Alebernabe5?tab=repositories" target="_blank" class="text-sky-400 hover:underline text-sm font-medium">
+        Ver más en GitHub &rarr;
+      </a>
     </div>
   </div>
 </section>
@@ -602,13 +545,11 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
 <section id="contacto" class="text-center mt-20 px-2 pt-12 mb-0">
   <h2 class="text-2xl sm:text-3xl font-bold text-sky-300 mb-8 ">Contáctame</h2>
 
-  <!-- Contenedor general con fondo, padding y rounded para encapsular todos -->
-  <div class="bg-gray-950 rounded-3xl p-6 max-w-7xl mx-auto">
-    
+  <div class="bg-gray-900 rounded-3xl p-6 max-w-7xl mx-auto">
     <form id="contactForm" class="w-full grid grid-cols-1 gap-6">
       <div>
         <label for="nombre" class="block mb-2 text-sm font-medium text-sky-200">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500" />
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500" />
       </div>
 
       <div>
@@ -622,25 +563,20 @@ He diseñado interfaces centradas en la UX e integrado elementos de IA. Además,
       </div>
 
       <div class="text-center">
-        <button type="submit"  class="bg-sky-400 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+        <button type="submit" class="bg-sky-400 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-md">
           Enviar mensaje
         </button>
       </div>
     </form>
-
     <div id="formResponse" class="mt-4 text-sky-300 font-semibold"></div>
   </div>
 </section>
 
-<script type="module" src="./assets/js/contacto.js"></script>
-     
-
-</main>
-
-</section>
   <!-- FOOTER -->
   <footer class="text-center mt-8 py-6 border-t border-sky-900 text-gray-400 text-sm">
     © 2025 Alejandro Bernabé Guerrero — Todos los derechos reservados.
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
