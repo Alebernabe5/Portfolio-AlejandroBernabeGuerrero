@@ -6,13 +6,12 @@
   --breakpoint-xs: 350px;
 }
 
-/* Si Tailwind no reconoce las clases en el HTML, 
-   podemos forzarlas aquí como un componente */
-@layer components {
-  .btn-contactame {
-    @apply relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-full group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 hover:text-white focus:ring-4 focus:outline-none focus:ring-red-100;
+/* Usamos CSS estándar dentro de Tailwind para evitar el error de 'group' */
+@layer utilities {
+  .curso-item:hover .curso-titulo {
+    color: #facc15 !important;
   }
-  .btn-contactame span {
-    @apply relative px-6 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-full group-hover:bg-opacity-0;
+  .curso-item[open] .curso-titulo {
+    color: #facc15 !important;
   }
 }
