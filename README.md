@@ -62,7 +62,7 @@ Si deseas ejecutar este proyecto localmente para explorar el código o personali
 
 ¿Tienes algún proyecto en mente o te gustaría charlar sobre tecnología?
 
-* **LinkedIn:** [linkedin.com/in/tu-usuario]([https://www.linkedin.com/in/tu-perfil](https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/))
+* **LinkedIn:** [linkedin.com/in/tu-usuario]([https://www.linkedin.com/in/tu-perfil](https://www.linkedin.com/in/alejandro-bernab%C3%A9-guerrero-708b791b2/)
 * **Web:** [alebernadev.netlify.app](https://alebernadev.netlify.app/)
 * **GitHub:** [@Alebernabe5](https://github.com/Alebernabe5)
 
