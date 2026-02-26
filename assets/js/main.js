@@ -32,7 +32,17 @@ const certificados = [
     duracion: "50 Horas",
     enlace: "https://www.credly.com/badges/ef1958c7-7766-47b6-babb-5dae89bdbcd9/linked_in_profile",
     esExternal: true
-  }
+  },
+  {
+  titulo: "AWS Academy Graduate - Cloud Foundations",
+  descripcion: "Certificación técnica que acredita conocimientos fundamentales sobre la infraestructura global de AWS, servicios principales (computación, almacenamiento, bases de datos), seguridad, arquitectura y modelos de precios. Capacitación orientada a la migración de servicios a la nube y optimización de soluciones tecnológicas.",
+  plataforma: "Amazon Web Services Training and Certification",
+  instructor: "AWS Academy",
+  fecha: "Febrero 2026",
+  duracion: "20 Horas", // Duración estándar del curso Cloud Foundations de AWS Academy
+  enlace: "https://www.credly.com/badges/f9d6488f-2a2a-4789-be32-d99a4fd5b118/linked_in_profile",
+  esExternal: true
+}
 ];
 
 function renderizarCursos() {
