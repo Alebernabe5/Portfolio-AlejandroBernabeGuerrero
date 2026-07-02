@@ -14,6 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
 // CARGAR CURSOS 
 const certificados = [
   {
+    titulo: "SAP Certified - Back-End Developer - ABAP Cloud",
+    descripcion: "Certificación oficial que acredita el dominio del desarrollo back-end en la nube. Experiencia práctica en entornos como Eclipse ADT (ABAP Development Tools) y SAP BTP (ABAP Environment), aplicando la estrategia Clean Core. Desarrollo especializado bajo el modelo RAP (ABAP RESTful Application Programming), Programación Orientada a Objetos (POO) y buenas prácticas de Clean ABAP. Competencia en la capa de servicios y datos mediante Core Data Services (CDS Views), exposición de servicios OData v4 (Service Definitions & Bindings) y persistencia SQL.",
+    plataforma: "SAP",
+    instructor: "Luis Carlos Pérez",
+    fecha: "Julio 2026",
+    duracion: "275 Horas",
+    enlace: "https://www.credly.com/badges/3b65d155-83f9-4df2-9f9c-cd22de9ae7af/public_url",
+    esExternal: true
+  },
+  {
     titulo: "Curso completo de Git y GitHub",
     descripcion: "Formación técnica en el dominio del ciclo de vida de software mediante control de versiones. Incluye gestión de repositorios (locales/remotos), estrategias de ramificación y técnicas avanzadas como Merge y Rebase.",
     plataforma: "Udemy",
