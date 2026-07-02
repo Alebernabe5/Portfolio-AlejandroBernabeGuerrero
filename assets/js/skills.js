@@ -8,6 +8,8 @@ const skills = [
   { nombre: "Laravel", sprite: "laravel", clases: "bg-gradient-to-br from-gray-900 via-slate-800 to-slate-700 border-slate-900", textCol: "text-white", iconPos: "-right-2 -bottom-1.5" },
   { nombre: "Unity", sprite: "unity", clases: "bg-gradient-to-br from-gray-900 via-slate-800 to-slate-700 border-slate-900", textCol: "text-white", iconPos: "-right-2 -bottom-1.5", extraIconClass: "filter invert brightness-150 contrast-200" },
   { nombre: "Android Studio", sprite: "android", clases: "bg-gradient-to-br from-green-800 via-emerald-700 to-blue-900", textCol: "text-white", iconPos: "-right-2 -bottom-1.5" },
+  { 
+  nombre: "Docker", sprite: "docker", clases: "bg-gradient-to-br from-blue-700 via-blue-500 to-cyan-400 border-blue-800", textCol: "text-white", iconPos: "-right-2 -bottom-2", badge: "Contenedores"},
   { nombre: "Git", sprite: "git", clases: "bg-gradient-to-br from-slate-900 via-gray-800 to-zinc-600 border-zinc-800", textCol: "text-white", iconPos: "-right-2 -bottom-1.5", badge: "Control de versiones" },
   { nombre: "GitHub", sprite: "gitHub", clases: "bg-gradient-to-br from-zinc-900 via-neutral-800 to-stone-700 border-neutral-900", textCol: "text-white", iconPos: "-right-2 -bottom-1.5", badge: "Repositorios & Código", url: "https://github.com/Alebernabe5" },
   { nombre: "MySQL", sprite: "mysql", clases: "bg-gradient-to-br from-blue-900 via-cyan-800 to-amber-600 border-blue-900", textCol: "text-white", iconPos: "-right-4 -bottom-4" },
